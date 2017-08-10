@@ -30,7 +30,7 @@ http://reporting.yyapi.net/mediation
 | app_id        | string( 16 characters )    | N         | app_id=b3a3277b8fdd54bc                  |Publisher’s application id, used to access Adxmi Ads. All applications data would be responded if publisher wouldn’t set this parameter.                                                                |
 | slot_id        | string  | N         | slot_id=320116255535293290              | Publishers can get data of specific slot_id. All the data would be responded if publisher wouldn’t set this parameter.      |
 | country     | string  | N         | country=US,CN,AU        | Publishers can get data of specific countries.  all the data would be responded if publisher wouldn’t set this parameter.  |
-| group_by | string| N        | group_by=country         | Publisher can specify the aggregation of data using this parameter. Data would be aggregated by Date in default if publisher wouldn’t set this parameter.<br> **Field:**<br> app_id <br> slot_id <br> country <br>  data. <br>
+| group_by | string| N        | group_by=country         | Publisher can specify the aggregation of data using this parameter. Data would be aggregated by Date in default if publisher wouldn’t set this parameter.<br> **Field:**<br> app_id <br> slot_id <br> country <br>  date. <br>
 |  
 
 ### Example:
